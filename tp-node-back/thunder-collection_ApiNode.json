@@ -1,0 +1,141 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "ApiNode",
+    "collectionId": "5f3571f6-e7ac-4ed8-91ec-b1b18cabfd48",
+    "dateExported": "2024-07-04T23:11:20.707Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "64696ec4-9e13-47cd-be30-c26e94b80f73",
+            "colId": "5f3571f6-e7ac-4ed8-91ec-b1b18cabfd48",
+            "containerId": "",
+            "name": "pruebaEstadoApi",
+            "url": "http://localhost:3000/api/status",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-02T23:02:28.498Z",
+            "modified": "2024-07-02T23:02:28.498Z",
+            "headers": []
+        },
+        {
+            "_id": "7146e6ea-9c61-47d1-a0e5-779ff24be12a",
+            "colId": "5f3571f6-e7ac-4ed8-91ec-b1b18cabfd48",
+            "containerId": "",
+            "name": "Registrarse",
+            "url": "http://localhost:3000/api/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-02T23:02:40.542Z",
+            "modified": "2024-07-04T23:11:01.639Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"usuario\",\n  \"password\": \"contraseña\",\n  \"email\": \"usuario@correo.com\"\n}\n  ",
+                "form": []
+            }
+        },
+        {
+            "_id": "9f106247-802f-43db-b55c-efebf89440a6",
+            "colId": "5f3571f6-e7ac-4ed8-91ec-b1b18cabfd48",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:3000/api/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-07-02T23:12:51.925Z",
+            "modified": "2024-07-04T23:10:45.953Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"contraseña\",\n  \"email\": \"usuario@correo.com\"\n}\n  ",
+                "form": []
+            }
+        },
+        {
+            "_id": "8f3b4e62-d08b-421a-b23d-701c085ea526",
+            "colId": "5f3571f6-e7ac-4ed8-91ec-b1b18cabfd48",
+            "containerId": "",
+            "name": "Obtener todas las reservas",
+            "url": "http://localhost:3000/api/reservas",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-07-02T23:55:18.692Z",
+            "modified": "2024-07-04T23:05:53.266Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"contraseña\",\n  \"email\": \"usuario@correo.com\"\n}\n  ",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiaWF0IjoxNzIwMTM0MzI5LCJleHAiOjE3MjAxMzc5Mjl9.HfBVQbCTU2d86dwPN5XrmsQj_6OoYHqB7oM9Zrlvjns"
+            }
+        },
+        {
+            "_id": "be6b6d04-6d47-4684-bb1c-d8077efe2c3c",
+            "colId": "5f3571f6-e7ac-4ed8-91ec-b1b18cabfd48",
+            "containerId": "",
+            "name": "Crear Reserva",
+            "url": "http://localhost:3000/api/reservas",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-04T22:32:55.873Z",
+            "modified": "2024-07-04T22:37:36.854Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"fecha\": \"2000-01-01\",\n    \"hora_inicio\": \"00:00:00\",\n    \"hora_fin\": \"00:00:00\",\n    \"tiempo_permanencia\": 0\n}\n  \n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNzIwMTMxNjkwLCJleHAiOjE3MjAxMzUyOTB9.xZDfCn0naa57OmYoDWh8IEzY7jEBZIo2wppgdZEuEDk"
+            }
+        },
+        {
+            "_id": "c69883b7-bed3-4cf5-8016-1801a0042e2d",
+            "colId": "5f3571f6-e7ac-4ed8-91ec-b1b18cabfd48",
+            "containerId": "",
+            "name": "Editar Reserva",
+            "url": "http://localhost:3000/api/reservas/4",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-07-04T22:37:53.152Z",
+            "modified": "2024-07-04T23:07:28.909Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"fecha\": \"2000-01-01\",\n    \"hora_inicio\": \"00:00:00\",\n    \"hora_fin\": \"00:00:00\",\n    \"tiempo_permanencia\": 5\n}\n  \n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNzIwMTMxNjkwLCJleHAiOjE3MjAxMzUyOTB9.xZDfCn0naa57OmYoDWh8IEzY7jEBZIo2wppgdZEuEDk"
+            }
+        },
+        {
+            "_id": "2a357e7b-07c5-46ab-a2e0-0b4de4ade101",
+            "colId": "5f3571f6-e7ac-4ed8-91ec-b1b18cabfd48",
+            "containerId": "",
+            "name": "Editar Reserva Copy",
+            "url": "http://localhost:3000/api/reservas/6",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-07-04T22:39:22.834Z",
+            "modified": "2024-07-04T23:07:56.901Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"fecha\": \"2000-01-01\",\n    \"hora_inicio\": \"00:00:00\",\n    \"hora_fin\": \"00:00:00\",\n    \"tiempo_permanencia\": 5\n}\n  \n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNzIwMTMxNjkwLCJleHAiOjE3MjAxMzUyOTB9.xZDfCn0naa57OmYoDWh8IEzY7jEBZIo2wppgdZEuEDk"
+            }
+        }
+    ],
+    "ref": "x_Qt5vKN7GtjBVWBxfiqEYXlEkC2PGFqwz6PWWp1o11tgdngmHZp_A6j3-_VUr1At26vplR9AJIfB4aoUOwp_A"
+}
